@@ -1,0 +1,23 @@
+uuid: 85e2f638-abb2-45d1-9791-1dc05c66085f
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - react_example_theme
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: react_example_theme_search
+theme: react_example_theme
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }
